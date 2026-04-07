@@ -1,4 +1,4 @@
-<img width="908" height="1741" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/62487e3e-9cb7-4521-9748-77e2adc87aa2" /># 🚀 AI Recruitment Mail Parser
+# 🚀 AI Recruitment Mail Parser
 
 An intelligent system that **fetches emails, detects spam, extracts resumes, and analyzes candidate data using Machine Learning**.
 
@@ -100,6 +100,8 @@ GET /stats
 ```
 
 ---
+<img width="908" height="1741" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/62487e3e-9cb7-4521-9748-77e2adc87aa2" />
+
 
 ## 🎯 Use Cases
 
