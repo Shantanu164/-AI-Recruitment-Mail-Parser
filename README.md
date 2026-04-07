@@ -1,4 +1,4 @@
-# 🚀 AI Recruitment Mail Parser
+<img width="908" height="1741" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/62487e3e-9cb7-4521-9748-77e2adc87aa2" /># 🚀 AI Recruitment Mail Parser
 
 An intelligent system that **fetches emails, detects spam, extracts resumes, and analyzes candidate data using Machine Learning**.
 
@@ -126,3 +126,20 @@ Data Scientist | ML Engineer
 ## ⭐ If you like this project
 
 Give it a ⭐ on GitHub!
+graph TD
+
+A[Gmail Inbox] --> B[IMAP Fetcher]
+B --> C[Email Processor]
+
+C --> D[Spam Classifier ML]
+C --> E[Attachment Extractor]
+
+E --> F[Resume Parser]
+F --> G[Data Extraction]
+
+G --> H[MySQL Database]
+
+D --> H
+
+H --> I[Flask API]
+I --> J[Frontend / Dashboard]
