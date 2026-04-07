@@ -129,19 +129,3 @@ Data Scientist | ML Engineer
 
 Give it a ⭐ on GitHub!
 graph TD
-
-A[Gmail Inbox] --> B[IMAP Fetcher]
-B --> C[Email Processor]
-
-C --> D[Spam Classifier ML]
-C --> E[Attachment Extractor]
-
-E --> F[Resume Parser]
-F --> G[Data Extraction]
-
-G --> H[MySQL Database]
-
-D --> H
-
-H --> I[Flask API]
-I --> J[Frontend / Dashboard]
